@@ -1,0 +1,71 @@
+html, body{
+	margin-left: 15px;
+	margin-right: 15px;
+	padding: 0px;
+	font-family: verdana, Arial, Heletica, sans-serif;
+}
+
+table{
+	border-collapse: collapse;
+	border-bottom: 1px solid #808080;
+	font-family: Tahoma, Verdana, Segoe, sans-serif;
+	width: 72%;
+}
+
+th{
+	border-bottom: 1px solid gray;
+	background: none repeat scroll 0 0 #0775d3;
+	padding: 10px;
+	color: #ffffff;
+}
+
+tr{
+	border-top: 1px solid gray;
+	text-align: centre;
+}
+
+tr:nth-child(even) {background: #ffffff}
+tr:nth-child(odd) {background: #bbbbbb}
+
+#wrapper {
+	width: 100%; 
+	margin-top: 0px;
+}
+
+#header {
+	padding: 10px;
+	width: 72%; 
+	background: #0775d3; 
+	margin-top: 0px
+}
+
+#header h2{
+	width: 100%;
+	margin: auto;
+	color: #ffffff;
+}
+#container {
+	width: 100%; 
+	margin:auto;
+}
+
+#conntainer h3{
+	color: #000;
+}
+
+#container #content{
+	margin-top: 20px;
+}
+
+.add-student-button{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 4px;
+	font-size: 12px;
+	font-weight: bold;
+	width: 120px;
+	padding: 5px 10px;
+	
+	margin-bottom: 15px;
+	background: #cccccc;
+}
